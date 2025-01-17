@@ -1,22 +1,44 @@
 {
-  "name": "docexpress",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^5.4.1",
-    "newrelic": "^12.11.1",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
-  },
-  "devDependencies": {
-    "prettier": "3.4.2"
-  }
+    "name": "docexpress",
+    "version": "1.0.0",
+    "description": "Generate API docs for Express app using Swagger",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "docexpress-build": "./bin/docexpress-build.js"
+    },
+    "scripts": {
+        "start": "docexpress-build"
+    },
+    "keywords": [
+      "DocExpress",
+      "doc-express",
+      "docexpress-bulid",
+        "swagger",
+        "express",
+        "swagger-doc",
+        "api-docs",
+        "swagger-ui",
+        "express-swagger",
+        "swagger-express",
+        "openapi",
+        "swagger-automation",
+        "swagger-jsdoc",
+        "api-doc-generator",
+        "express-api",
+        "swagger-express-generator",
+        "swagger-api-doc",
+        "express-api-docs"
+    ],
+    "author": "Sakib Devlekar",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "newrelic": "^12.11.1",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1"
+    },
+    "devDependencies": {
+        "prettier": "3.4.2"
+    }
 }
