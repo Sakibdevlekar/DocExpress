@@ -11,9 +11,9 @@
         "start": "docexpress-build"
     },
     "keywords": [
-      "DocExpress",
-      "doc-express",
-      "docexpress-bulid",
+        "DocExpress",
+        "doc-express",
+        "docexpress-bulid",
         "swagger",
         "express",
         "swagger-doc",
@@ -34,7 +34,9 @@
     "license": "ISC",
     "dependencies": {
         "chalk": "^5.4.1",
-        "newrelic": "^12.11.1",
+        "express": "^4.21.2",
+        "express-basic-auth": "^1.2.1",
+        "glob": "^11.0.1",
         "swagger-jsdoc": "^6.2.8",
         "swagger-ui-express": "^5.0.1"
     },
